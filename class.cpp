@@ -9,8 +9,8 @@ private:
     float marks;
 
 public:
-    void accept()
    
+    void accept()
     {
         cout << "Enter Student Name: ";
         cin >> name;
@@ -21,18 +21,19 @@ public:
         cout << "Enter Marks: ";
         cin >> marks;
     }
-      void display()
-  
 
+ 
+    void display()
     {
         cout << "\n--- Student Information ---" << endl;
         cout << "Name: " << name << endl;
-        cout << "RollNumber: " << rollNumber << endl;
+        cout << "Roll Number: " << rollNumber << endl;
         cout << "Marks: " << marks << endl;
     }
 };
-    int main()
-    {
+
+int main()
+{
     Student s;
 
     s.accept();
@@ -40,8 +41,3 @@ public:
 
     return 0;
 }
-    
-    
-    
-    
-    
