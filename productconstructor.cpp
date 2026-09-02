@@ -7,18 +7,19 @@ class Product
     int quntity;
     float price;
     public:
-    Product()    
+    Product()    //default constructor
+    {
         name="Unknown";
         quntity=0;
         price=0;
     }
-    Product(string n, int q, float p)  
+    Product(string n, int q, float p)   //parameterized constructor
     {
         name=n;
         quntity=q;
         price=p;
     }
-    Product(const Product &p)    
+    Product(const Product &p)    //copy constructor
     {
         name=p.name;
         quntity=p.quntity;
