@@ -11,7 +11,7 @@ class Employee
 
 public:
 
-    // 1. Default Constructor
+  
     Employee()
     {
         emp_name = "Unknown";
@@ -20,7 +20,7 @@ public:
         city = "Unknown";
     }
 
-    // 2. Parameterized Constructor
+   
     Employee(string name, int id, float sal, string c)
     {
         emp_name = name;
@@ -29,7 +29,7 @@ public:
         city = c;
     }
 
-    // 3. Copy Constructor
+    
     Employee(const Employee &e)
     {
         emp_name = e.emp_name;
